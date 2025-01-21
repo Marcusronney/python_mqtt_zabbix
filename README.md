@@ -3,13 +3,13 @@ Script Python para coleta de dados via Protocolo MQTT + Zabbix.
 
 O script foi desenvolvido através da necessidade de monitorar as métricas de temperatura de uma sala de servidores, utilizando um Arduino como dispositivo de coleta de dados.
 
-**Depêndencias: 
+#Depêndencias
 
 Broker configurado no seu sensor IoT.
 
 **biblioteca paho.mqtt.client**
 
-Instalação:
+#Instalação:
 
 *pip install paho-mqtt*
 
@@ -27,7 +27,8 @@ Requires:
 Required-by:
 
 ```
-
+#MQTT.py
+```
 import paho.mqtt.client as mqtt
 
 # Configurações do Broker MQTT
@@ -70,7 +71,6 @@ except Exception as e:
 
 ```
 
-```
 
 Local do Script MQTT.py: */lib/zabbix/externalscripts*
 
